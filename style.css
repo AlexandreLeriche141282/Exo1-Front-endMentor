@@ -1,0 +1,53 @@
+*{
+    background-color: white;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(213,225,239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    @media screen and (max-width:375px){
+        width: 320px;
+        padding: 20px;
+    }
+    
+}
+
+.card{
+    width: 280px;
+    height: 440px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.card img{
+    border-radius: 15px;
+    width: 100%;
+}
+.card h1{
+    font-size: 22px;
+}
+
+.card p{
+    font-size: 15px;
+    color: hsl(223.64,5.95%,63.73%);
+    
+}
+
+.attribution {
+    background-color:rgb(213,225,239);
+}
+.attribution a {
+    background-color:rgb(213,225,239);
+}
